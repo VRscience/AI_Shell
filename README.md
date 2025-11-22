@@ -35,7 +35,7 @@ If you see an error regarding "Execution Policy", run this command instead to by
 ```
 PowerShell -ExecutionPolicy Bypass -File .\ai_powershell.ps1
 ```
-## 🐧 WSL / Linux Installer (ai_bash.sh)
+# 🐧 WSL / Linux shell
 
 1.  Download the `ai_bash.sh` script from this repository.
 2.  Open a Bash shell in the folder where you downloaded the file.
