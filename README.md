@@ -1,6 +1,8 @@
-# 🧠 PowerShell AI Assistant
+# 🧠 Shell AI Assistant
 
-Turn your Windows Terminal into an intelligent assistant using **Ollama** and local LLMs. This script integrates AI directly into PowerShell, enabling you to generate commands (`act`) or request explanations (`htd`) without leaving the command line.
+In this repo you will find different script to turn your shell into an intelligent assistant using **Ollama** and local LLMs. This script integrates AI directly into PowerShell, enabling you to generate commands (`act`) or request explanations (`htd`) without leaving the command line.
+
+# AI_Powershell
 
 ## ✨ Features
 
