@@ -32,8 +32,17 @@ In this repo you will find different script to turn your shell into an intellige
 ‼️NB:
 If you see an error regarding "Execution Policy", run this command instead to bypass the restriction temporarily:
 
-```powershell
+```
 PowerShell -ExecutionPolicy Bypass -File .\ai_powershell.ps1
+```
+## 🐧 WSL / Linux Installer (ai_bash.sh)
+
+1.  Download the `ai_powershell.ps1` script from this repository.
+2.  Open a PowerShell terminal in the folder where you downloaded the file.
+3.  Run the installation script (alternatively use explorer, navigate to the folder where the file was downloaded, right click and select "run with Powershell"):
+
+```
+bash ai_bash.sh
 ```
 
 The script will automatically:
@@ -42,7 +51,7 @@ Check if Ollama is installed.
 
 Download the required AI model (qwen2.5-coder:1.5b) if missing.
 
-Backup your existing PowerShell profile.
+Backup your existing PowerShell profile or adds the code to the bottom of your .bashrc file rather than deleting the file, preserving your Linux system paths and colors.
 
 Inject the AI functions into your profile.
 
@@ -52,7 +61,7 @@ Once installed, simply open a new terminal window.
 Generate & Execute Commands
 Use (`act`) to perform tasks quickly.
 
-```powershell
+```
 act find all files larger than 1GB in D:
 ```
 Output:
@@ -65,7 +74,7 @@ Execute? (y/n)
 Ask for Help
 Use htd to learn how to do something:
 
-```powershell
+```
 htd to kill a process by name
 ```
 
