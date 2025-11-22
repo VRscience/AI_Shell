@@ -22,7 +22,7 @@ In this repo you will find different script to turn your shell into an intellige
 
 1.  Download the `ai_powershell.ps1` script from this repository.
 2.  Open a PowerShell terminal in the folder where you downloaded the file.
-3.  Run the installation script (alternatively use explorer, navigate to the folder where the file was downloaded, right click and select "run with Powershell"):
+3.  Run the script (alternatively use explorer, navigate to the folder where the file was downloaded, right click and select "run with Powershell"):
 
 ```powershell
 
@@ -37,9 +37,9 @@ PowerShell -ExecutionPolicy Bypass -File .\ai_powershell.ps1
 ```
 ## 🐧 WSL / Linux Installer (ai_bash.sh)
 
-1.  Download the `ai_powershell.ps1` script from this repository.
-2.  Open a PowerShell terminal in the folder where you downloaded the file.
-3.  Run the installation script (alternatively use explorer, navigate to the folder where the file was downloaded, right click and select "run with Powershell"):
+1.  Download the `ai_bash.sh` script from this repository.
+2.  Open a Bash shell in the folder where you downloaded the file.
+3.  Run the script:
 
 ```
 bash ai_bash.sh
