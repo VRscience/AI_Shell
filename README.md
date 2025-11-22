@@ -20,21 +20,20 @@ In this repo you will find different script to turn your shell into an intellige
 
 ## 🚀 Installation
 
-1.  Download the `install_ai.ps1` script from this repository.
+1.  Download the `ai_powershell.ps1` script from this repository.
 2.  Open a PowerShell terminal in the folder where you downloaded the file.
-3.  Run the installation script:
+3.  Run the installation script (alternatively use explorer, navigate to the folder where the file was downloaded, right click and select "run with Powershell"):
 
 ```powershell
 
-.\install_ai.ps1
+.\ai_powershell.ps1
 ```
-
 
 ‼️NB:
 If you see an error regarding "Execution Policy", run this command instead to bypass the restriction temporarily:
 
 ```powershell
-PowerShell -ExecutionPolicy Bypass -File .\install_ai.ps1
+PowerShell -ExecutionPolicy Bypass -File .\ai_powershell.ps1
 ```
 
 The script will automatically:
